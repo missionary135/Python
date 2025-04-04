@@ -6,7 +6,7 @@ print("I'm thinking of a number between 1 and 100...")
 
 secret_number = random.randint(1, 100)
 attempts = 0
-max_attempts = 5
+max_attempts = 10
 
 while attempts < max_attempts:
     guess = int(input("\n🤔 Your guess (1-100): "))
